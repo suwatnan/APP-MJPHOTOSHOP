@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homeez12"
+    tools:context=".PayFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/viewLine33"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewLine50"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewLine52"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewLine53"
+                android:layout_width="0dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="316dp"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="วิธีชำระเงิน"
+                android:textColor="#423D3D"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/viewLine50"
+                app:layout_constraintTop_toBottomOf="@+id/viewLine52" />
+
+            <Button
+                android:id="@+id/btnpay"
+                android:layout_width="303dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="26dp"
+                android:text="โอนจ่าย"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:backgroundTint="#F1DC53"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/viewLine50"
+                app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+            <Button
+                android:id="@+id/btnpay2"
+                android:layout_width="303dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="40dp"
+                android:text="ชำระเงินปลายทาง"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:backgroundTint="#F1DC53"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/viewLine50"
+                app:layout_constraintTop_toBottomOf="@+id/btnpay" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/benchnine_light"
+            android:text="วิธีชำระเงิน"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

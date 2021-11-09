@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MJPhotoShop</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="root_url">http://192.168.51.106:8000/</string>
+    <string name="login_url">api/user/login</string>
+    <string name="user_url">api/user/</string>
+    <string name="qq_url">api/qq/</string>
+    <string name="viewproduct_url">api/product/</string>
+    <string name="formatss_url">api/formatss/</string>
+    <string name="formatprint_url">api/formatprint/</string>
+    <string name="user_image_url">images/</string>
+    <string name="product_image_url">imageFileName/</string>
+    <string name="timess_url">api/timess/</string>
+    <string name="receiving_url">api/receiving/</string>
+    <string name="booking_url">api/booking/</string>
+
+    <string name="up_url">api/up/</string>
+    <string name="up1_url">api/up1/</string>
+    <string name="up2_url">api/up2/</string>
+    <string name="up3_url">api/up3/</string>
+
+    <string name="sizeimage_url">api/sizeimage/</string>
+    <string name="paper_url">api/paper/</string>
+    <string name="viewbooking_url">api/booking/</string>
+
+    <string name="viewhistory_url">api/viewhistory/</string>
+    <string name="viewhistory2_url">api/viewhistory2/</string>
+    <string name="viewhistory3_url">api/viewhistory3/</string>
+    <string name="viewhistory4_url">api/viewhistory4/</string>
+    <string name="viewhistory5_url">api/viewhistory5/</string>
+
+    <string name="viewprintphotodetail_url">api/viewprintphotodetail/</string>
+    <string name="addprintphoto_url">api/printphoto/</string>
+    <string name="deletebooking_url">api/booking/</string>
+    <string name="view_url">api/printphoto/</string>
+    <string name="AddPayment_url">api/AddPayment/</string>
+    <string name="AddDeposit_url">api/AddDeposit/</string>
+    <string name="AddDeposit2_url">api/AddDeposit2/</string>
+
+    <string name="Addeditpayment_url">api/Addeditpayment/</string>
+
+    <string name="depaper_url">api/depaper/</string>
+    <string name="deproduct_url">api/deproduct/</string>
+
+    <string name="viewprintphotoID_url">api/viewprintphotoID/</string>
+
+    <string name="updatestok_url">api/updatestok/</string>
+
+    <string name="viewDeposit_url">api/viewDeposit/</string>
+    <string name="viewPayment_url">api/viewPayment/</string>
+</resources>

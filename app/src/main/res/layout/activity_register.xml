@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/regt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="288dp"
+            android:layout_height="357dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="22dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" username"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <EditText
+                android:id="@+id/txtPassword1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <EditText
+                android:id="@+id/editTextFname"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" firstname"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <EditText
+                android:id="@+id/editTextLname"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" lastname"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" address"
+                android:inputType="textPostalAddress"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#e9c9b0"
+                android:ems="10"
+                android:hint=" phone number"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textColorHint="#473E38" />
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:text="NEXT"
+                android:textColor="#473E38"
+                app:backgroundTint="#e4b088" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="170dp"
+            android:background="#c5afa0"
+            android:gravity="center"
+            android:text="Sign up"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginBottom="77dp"
+            android:text="back"
+            android:textColor="#b8b1a9"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

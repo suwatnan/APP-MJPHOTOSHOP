@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mainadmin"
+    app:startDestination="@+id/nav_home1">
+
+    <fragment
+        android:id="@+id/nav_admin2"
+        android:name="com.example.mjphotoshop.AdminFragment"
+        android:label="บัญชีของฉัน"
+        tools:layout="@layout/fragment_admin" />
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.example.mjphotoshop.OrderAdminFragment"
+        android:label="รายการอัดรูป"
+        tools:layout="@layout/fragment_order_admin" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.mjphotoshop.LogoutFragment"
+        android:label="ออกจากระบบ"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>

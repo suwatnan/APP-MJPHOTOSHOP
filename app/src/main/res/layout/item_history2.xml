@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:layout_margin="20dp">
+
+        <View
+            android:id="@+id/viewLine23"
+            android:layout_width="1dp"
+            android:layout_height="373dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine15"
+            android:layout_width="1dp"
+            android:layout_height="432dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine16"
+            android:layout_width="1dp"
+            android:layout_height="432dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine17"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="432dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine18"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtname6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/viewLine18" />
+
+        <TextView
+            android:id="@+id/txtlastname6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/txtname6" />
+
+        <TextView
+            android:id="@+id/txtproduct6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/txtlastname6" />
+
+        <TextView
+            android:id="@+id/txtsize6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/txtproduct6" />
+
+        <TextView
+            android:id="@+id/txtprice6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/txtpaper6" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ประวัติ"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/viewLine23"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="ชื่อ"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/viewLine18" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="นามสกุล"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="สินค้า"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="ขนาด"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="ราคา"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="รูปแบบการอัด"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="สถานะ"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <TextView
+            android:id="@+id/txtstaus6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="กระดาษ"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine23"
+            app:layout_constraintStart_toEndOf="@+id/viewLine16"
+            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+        <TextView
+            android:id="@+id/txtpaper6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/txtsize6" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine15"
+            app:layout_constraintStart_toEndOf="@+id/viewLine23"
+            app:layout_constraintTop_toBottomOf="@+id/txtprice6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

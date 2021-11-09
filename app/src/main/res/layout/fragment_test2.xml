@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/print001"
+    tools:context=".Test2Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextNote"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="-เช่นรูปแบบอื่นๆ"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnphoto"
+            app:layout_constraintStart_toEndOf="@+id/textView96"
+            app:layout_constraintTop_toBottomOf="@+id/txtpricetest2" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="380dp"
+            android:layout_height="184dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView89">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="0dp"
+                android:layout_height="184dp"
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:spanCount="2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginRight="96dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="เลือกขนาด"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPrint" />
+
+        <Spinner
+            android:id="@+id/spinnerSizeimage"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginRight="96dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="เลือกกระดาษ"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerSizeimage" />
+
+        <Spinner
+            android:id="@+id/spinnerPaper"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="PHOTO PRINT"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="เลือกรูปแบบการอัด"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerPaper" />
+
+        <Spinner
+            android:id="@+id/spinnerFormatprint"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+        <ImageView
+            android:id="@+id/imgformat"
+            android:layout_width="88dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#4D989595"
+            app:layout_constraintEnd_toStartOf="@+id/textView52"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSlip" />
+
+        <ImageView
+            android:id="@+id/imageViewSlip"
+            android:layout_width="166dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintEnd_toStartOf="@+id/textView21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPrint"
+            tools:src="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="+ SELECT PHOTO"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1DC53"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginEnd="296dp"
+            android:layout_marginRight="296dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:text="เลือกสินค้า"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSlip" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="5dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:text="ราคา"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <TextView
+            android:id="@+id/txtpricetest2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:textColor="#006400"
+            app:layout_constraintStart_toEndOf="@+id/textView90"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="8dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:text="หมายเหตุ"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/btnphoto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+        <Button
+            android:id="@+id/btnphoto"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="60dp"
+            android:text="ยืนยัน"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1DC53"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtpricesize"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="2dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:textColor="#006400"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerSizeimage"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginRight="274dp"
+            android:background="#F1DC53"
+            android:gravity="center"
+            android:text="*ตัวอย่าง"
+            android:textColor="#F60303"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/imgformat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSlip" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

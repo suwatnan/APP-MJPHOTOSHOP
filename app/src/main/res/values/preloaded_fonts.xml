@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/akronim</item>
+        <item>@font/aldrich</item>
+        <item>@font/allerta</item>
+        <item>@font/anaheim</item>
+        <item>@font/andada</item>
+        <item>@font/andika</item>
+        <item>@font/arapey</item>
+        <item>@font/benchnine_light</item>
+        <item>@font/cabin</item>
+        <item>@font/carme</item>
+        <item>@font/cormorant_upright_light</item>
+        <item>@font/englebert</item>
+        <item>@font/fanwood_text</item>
+        <item>@font/poppins_light</item>
+        <item>@font/unna</item>
+    </array>
+</resources>
