@@ -20,7 +20,6 @@ import java.io.IOException
 
 class UserFragment : Fragment() {
     var imgback:ImageView? = null
-    var imgback11:ImageView? = null
     var imguser:ImageView? = null
     var imgde:ImageView? = null
     var imgre:ImageView? = null
